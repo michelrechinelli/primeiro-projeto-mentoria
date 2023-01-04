@@ -1,17 +1,9 @@
-import React, {useEffect} from "react";
-import tmdb from "./tmdb";
+import React from "react";
 
-export default () => {   
-  
-  useEffect(()=> {
-
-    const carregarTudo =async ()=> {
-      let list = await tmdb.getHomeList
-    }
-
-    carregarTudo();
-
-    },  []);
-  
-  return (<div>Olá, mundo!</div>);  
- }
+export default () => {
+  return (
+    <div>
+      Olá Mundo!
+    </div>
+  )
+}
